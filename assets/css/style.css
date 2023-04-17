@@ -206,6 +206,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding-top: 40px;
 }
 
 .btn-item-link {
@@ -215,7 +216,7 @@ body {
 
 .btn-item-link .img { width: 136px; }
 
-.w-100 { width: 80%; }
+.w-100 { width: 92%; }
 
 .section-title { margin-block: 10px 20px; }
 
@@ -596,6 +597,7 @@ body {
     justify-content: center;
     font-size: 50px;
     color: black;
+    padding-bottom: 120px ;
 }
 
 .container-2
@@ -608,8 +610,8 @@ body {
 }
 .container .card
 {
-   width: 330px;
-   height: 416px;
+   width: 380px;
+   height: 466px;
    padding: 60px 30px;
    margin: 20px;
    background: #f2f3f7;
@@ -626,8 +628,8 @@ body {
 }
 .container .card .content .imgBx
 {
-   width: 180px;
-   height: 180px;
+   width: 250px;
+   height: 250px;
    border-radius: 50%;
    position: relative;
    margin-bottom: 20px;
@@ -645,7 +647,7 @@ body {
 .container .card .content .contentBx h4
 {
    color: #13c16f;
-   font-size: 1.7rem;
+   font-size: 2rem;
    font-weight: bold;
    text-align: center;
    letter-spacing: 1px;
@@ -653,7 +655,7 @@ body {
 .container .card .content .contentBx h5
 {
    color: #6c758f;
-   font-size: 1.2rem;
+   font-size: 1.rem;
    font-weight: bold;
    text-align: center;
 }
@@ -1079,6 +1081,8 @@ body {
    */
 
   .container { max-width: 1185px; }
+
+  .container#equipo{ max-width: 1800px;}
 
   .section-text { --fs-4: 1.5rem; }
 
